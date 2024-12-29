@@ -120,7 +120,7 @@ function showProjectTimeUsage() {
 
     // Calculate time usage per category
     const buffer = {}; 
-    
+
     for(let category of categories) {
         buffer[category] = 0;
     }
@@ -269,7 +269,7 @@ function readTaskInput(task) {
     task.id = taskIdInput.value();
     task.date = taskDateInput.value();
     task.category = taskCategoryInput.value();
-    task.timeUsage = taskTimeUsageInput.value();
+    task.timeUsage = parseInt(taskTimeUsageInput.value());
     task.description = taskDescriptionInput.value();
 }
 
