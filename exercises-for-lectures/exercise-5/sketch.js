@@ -159,7 +159,7 @@ function findPlanForWeek(weekNumber) {
         currentWeekPlan = weekPlan;
         writePlanInputs(currentWeekPlan);
     }
-    else alert('Ingen data for næste uge');
+    else alert('Ingen data for denne uge');
 }
 
 function readPlanInputs(weekplan) {
