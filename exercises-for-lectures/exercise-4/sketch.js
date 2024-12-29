@@ -13,7 +13,7 @@ function setup() {
     const row1 = 10, row2 = 50, row3 = 90, row4 = 130, row5 = 170;
 
     // Create and place the labels, inputs and buttons
-    createSpan('Ferie budget: ').position(column1, row1);
+    createSpan('Ferie budget').position(column1, row1);
     overallBudgetInput = createInput().position(column2, row1);
     createSpan('kr.').position(column3, row1);
 
